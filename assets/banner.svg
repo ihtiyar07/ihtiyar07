@@ -1,0 +1,112 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1000" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#070a13" />
+      <stop offset="50%" stop-color="#0c1220" />
+      <stop offset="100%" stop-color="#060910" />
+    </linearGradient>
+
+    <!-- Neon Glow Accents -->
+    <radialGradient id="cyanGlow" cx="20%" cy="30%" r="40%" fx="20%" fy="30%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="emeraldGlow" cx="80%" cy="70%" r="45%" fx="80%" fy="70%">
+      <stop offset="0%" stop-color="#00E676" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#00E676" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="60%" stop-color="#E2E8F0" />
+      <stop offset="100%" stop-color="#00D4FF" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#1E293B" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00E676" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="circuitGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.5" />
+      <circle cx="40" cy="0" r="1.5" fill="#00D4FF" fill-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Fira Code', 'Courier New', monospace; }
+    .sans { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .title { font-weight: 800; font-size: 38px; letter-spacing: -0.5px; }
+    .subtitle { font-weight: 600; font-size: 17px; letter-spacing: 2px; text-transform: uppercase; }
+    .tagline { font-weight: 400; font-size: 14px; fill: #94A3B8; }
+    .status-text { font-size: 11px; font-weight: 600; letter-spacing: 1px; }
+    .pill-title { font-size: 12px; font-weight: 700; }
+    .pill-sub { font-size: 10px; font-weight: 500; fill: #64748B; }
+  </style>
+
+  <!-- Base Card -->
+  <rect x="2" y="2" width="996" height="256" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  
+  <!-- Subtle Grid Overlay -->
+  <rect x="2" y="2" width="996" height="256" rx="16" fill="url(#circuitGrid)" />
+  
+  <!-- Radial Glows -->
+  <rect x="2" y="2" width="996" height="256" rx="16" fill="url(#cyanGlow)" />
+  <rect x="2" y="2" width="996" height="256" rx="16" fill="url(#emeraldGlow)" />
+
+  <!-- Top Status Bar -->
+  <g transform="translate(48, 36)">
+    <!-- Terminal Prompt -->
+    <circle cx="0" cy="0" r="4.5" fill="#EF4444" />
+    <circle cx="16" cy="0" r="4.5" fill="#F59E0B" />
+    <circle cx="32" cy="0" r="4.5" fill="#10B981" />
+    <text x="52" y="4" class="mono status-text" fill="#64748B">ahmet@production-node:~$ system-status --verbose</text>
+    
+    <!-- Live Operational Badge -->
+    <rect x="680" y="-12" width="220" height="24" rx="12" fill="#062E1E" stroke="#10B981" stroke-width="1" />
+    <circle cx="696" cy="0" r="4" fill="#10B981">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="708" y="4" class="mono status-text" fill="#34D399">ACTIVE • ZERO-IMPACT OK</text>
+  </g>
+
+  <!-- Main Hero Title & Identity -->
+  <g transform="translate(48, 98)">
+    <text x="0" y="0" class="sans title" fill="url(#textGrad)">Ahmet İhtiyar</text>
+    <text x="0" y="28" class="mono subtitle" fill="#00D4FF">Senior Systems &amp; Backend Engineer</text>
+    <text x="0" y="52" class="sans tagline">
+      Edge Telemetry (ESP32/Modbus) ━ High-Scale Microservices (Spring Boot/.NET) ━ Data Lineage (MetaDB/Memgraph)
+    </text>
+  </g>
+
+  <!-- Bottom Metric Pills -->
+  <g transform="translate(48, 185)">
+    <!-- Pill 1: IoT Edge -->
+    <rect x="0" y="0" width="210" height="50" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <rect x="0" y="0" width="4" height="50" rx="2" fill="#E7352C" />
+    <text x="16" y="22" class="mono pill-title" fill="#F1F5F9">⚡ Industrial IoT Edge</text>
+    <text x="16" y="38" class="mono pill-sub">ESP32 • Modbus • 4G LTE</text>
+
+    <!-- Pill 2: Backend -->
+    <rect x="226" y="0" width="220" height="50" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <rect x="226" y="0" width="4" height="50" rx="2" fill="#10B981" />
+    <text x="242" y="22" class="mono pill-title" fill="#F1F5F9">🏛️ Distributed Backend</text>
+    <text x="242" y="38" class="mono pill-sub">Java 21 • .NET 10 • Redis Lock</text>
+
+    <!-- Pill 3: Lineage -->
+    <rect x="462" y="0" width="210" height="50" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <rect x="462" y="0" width="4" height="50" rx="2" fill="#00D4FF" />
+    <text x="478" y="22" class="mono pill-title" fill="#F1F5F9">🧬 MetaDB &amp; Graph</text>
+    <text x="478" y="38" class="mono pill-sub">Zero-Impact • Memgraph Cypher</text>
+
+    <!-- Pill 4: Infra -->
+    <rect x="688" y="0" width="216" height="50" rx="8" fill="#0F172A" stroke="#1E293B" stroke-width="1" />
+    <rect x="688" y="0" width="4" height="50" rx="2" fill="#E57000" />
+    <text x="704" y="22" class="mono pill-title" fill="#F1F5F9">⚙️ DevOps &amp; Infra</text>
+    <text x="704" y="38" class="mono pill-sub">Proxmox VE • Fedora • Keycloak</text>
+  </g>
+</svg>

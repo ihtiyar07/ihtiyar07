@@ -1,0 +1,75 @@
+<svg width="900" height="230" viewBox="0 0 900 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="900" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <linearGradient id="cardBorder" x1="0" y1="0" x2="900" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="50%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'SF Mono', Consolas, 'Fira Code', monospace; }
+    .sans { font-family: system-ui, -apple-system, sans-serif; }
+    .header { font-size: 14px; font-weight: 700; fill: #F8FAFC; letter-spacing: 0.5px; }
+    .stat-val { font-size: 18px; font-weight: 700; fill: #38BDF8; }
+    .stat-label { font-size: 11px; font-weight: 500; fill: #94A3B8; }
+    .badge-label { font-size: 10px; font-weight: 600; }
+  </style>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="896" height="226" rx="12" fill="url(#cardBg)" stroke="url(#cardBorder)" stroke-width="1.5" />
+
+  <!-- Title Bar -->
+  <path d="M 2 14 Q 2 2 14 2 L 886 2 Q 898 2 898 14 L 898 42 L 2 42 Z" fill="#0F172A" />
+  <circle cx="24" cy="22" r="4" fill="#38BDF8" />
+  <text x="36" y="26" class="mono header">SYSTEM ARCHITECTURE TELEMETRY &amp; OPERATIONAL METRICS</text>
+  <rect x="740" y="11" width="136" height="22" rx="11" fill="#064E3B" stroke="#059669" stroke-width="1" />
+  <circle cx="754" cy="22" r="3.5" fill="#34D399" />
+  <text x="764" y="26" class="mono badge-label" fill="#34D399">TELEMETRY LIVE</text>
+
+  <!-- 4 Column Grid -->
+  <!-- Col 1: Edge Telemetry -->
+  <g transform="translate(24, 62)">
+    <rect width="198" height="142" rx="8" fill="#1E293B" fill-opacity="0.4" stroke="#334155" stroke-width="1" />
+    <text x="16" y="26" class="sans stat-label">EDGE TELEMETRY</text>
+    <text x="16" y="52" class="mono stat-val" fill="#F87171">0% LOSS</text>
+    <text x="16" y="74" class="sans" font-size="11" fill="#CBD5E1">Local Flash Ring Buffer</text>
+    <text x="16" y="94" class="sans" font-size="11" fill="#94A3B8">Modbus RTU / RS-485</text>
+    <text x="16" y="114" class="mono" font-size="10" fill="#38BDF8">4G LTE Failover OK</text>
+  </g>
+
+  <!-- Col 2: Ingestion & Lineage -->
+  <g transform="translate(242, 62)">
+    <rect width="198" height="142" rx="8" fill="#1E293B" fill-opacity="0.4" stroke="#334155" stroke-width="1" />
+    <text x="16" y="26" class="sans stat-label">DATA LINEAGE (METADB)</text>
+    <text x="16" y="52" class="mono stat-val" fill="#34D399">ZERO-LOCK</text>
+    <text x="16" y="74" class="sans" font-size="11" fill="#CBD5E1">Catalog Stats Only</text>
+    <text x="16" y="94" class="sans" font-size="11" fill="#94A3B8">Memgraph Bolt / Cypher</text>
+    <text x="16" y="114" class="mono" font-size="10" fill="#34D399">GLB Pipeline Active</text>
+  </g>
+
+  <!-- Col 3: Payment Engine -->
+  <g transform="translate(460, 62)">
+    <rect width="198" height="142" rx="8" fill="#1E293B" fill-opacity="0.4" stroke="#334155" stroke-width="1" />
+    <text x="16" y="26" class="sans stat-label">FINTECH PAYMENT MESH</text>
+    <text x="16" y="52" class="mono stat-val" fill="#38BDF8">IDEMPOTENT</text>
+    <text x="16" y="74" class="sans" font-size="11" fill="#CBD5E1">Redis Redlock Safety</text>
+    <text x="16" y="94" class="sans" font-size="11" fill="#94A3B8">Spring Boot 3 + .NET</text>
+    <text x="16" y="114" class="mono" font-size="10" fill="#38BDF8">ACID Consistency</text>
+  </g>
+
+  <!-- Col 4: Infra & Virtualization -->
+  <g transform="translate(678, 62)">
+    <rect width="198" height="142" rx="8" fill="#1E293B" fill-opacity="0.4" stroke="#334155" stroke-width="1" />
+    <text x="16" y="26" class="sans stat-label">INFRASTRUCTURE</text>
+    <text x="16" y="52" class="mono stat-val" fill="#FBBF24">99.98% UP</text>
+    <text x="16" y="74" class="sans" font-size="11" fill="#CBD5E1">Proxmox VE 8 (KVM/LXC)</text>
+    <text x="16" y="94" class="sans" font-size="11" fill="#94A3B8">ZFS Pools &amp; PBS Backups</text>
+    <text x="16" y="114" class="mono" font-size="10" fill="#FBBF24">Fedora Linux Core</text>
+  </g>
+</svg>

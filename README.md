@@ -1,23 +1,33 @@
 <div align="center">
 
-# Ahmet İhtiyar 👋
-### Senior Systems & Backend Engineer | Edge-to-Cloud Architect
+<!-- Hero Banner -->
+<img src="assets/banner.svg" alt="Ahmet İhtiyar - Senior Systems & Backend Engineer" width="100%" />
 
-[![Status](https://img.shields.io/badge/Status-Open_for_Projects_%26_Architecture_Advisory-00C853?style=for-the-badge&logo=statuspage&logoColor=white)](#)
-[![Location](https://img.shields.io/badge/Location-Turkey_(Open_to_Global_Remote)-1E88E5?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
+<br/><br/>
+
+[![Status](https://img.shields.io/badge/System_Status-Operational_%26_Open_to_Advisory-00C853?style=for-the-badge&logo=statuspage&logoColor=white)](#)
+[![Location](https://img.shields.io/badge/Location-Turkey_(Global_Remote)-1E88E5?style=for-the-badge&logo=googlemaps&logoColor=white)](#)
 [![Email](https://img.shields.io/badge/Email-ahmetihtiyar1453%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmetihtiyar1453@gmail.com)
 
 <br/>
 
-*Bridging low-level hardware edge computing (ESP32, Modbus RTU/TCP, 4G LTE) to high-throughput distributed microservices (Java 21 Spring Boot, C# .NET), enterprise metadata lineage (MetaDB, Memgraph Graph DB, PostgreSQL), and virtualized server infrastructure (Proxmox VE, Fedora Linux, Docker).*
-
----
+> **Full-Spectrum Systems Engineer** bridging bare-metal hardware edge computing (ESP32, Modbus RTU/TCP, 4G LTE) to high-throughput distributed microservices (Java 21 Spring Boot, C# .NET), enterprise metadata lineage (MetaDB, Memgraph Graph DB, PostgreSQL), and virtualized server infrastructure (Proxmox VE, Fedora Linux, Docker).
 
 </div>
 
-## 🧭 About Me
+---
 
-I am a full-spectrum systems and backend engineer with deep expertise across the entire execution stack. My focus is on **high-reliability distributed architectures**, **industrial IoT telematics**, and **zero-impact metadata pipelines** on mission-critical enterprise systems.
+## ⚡ Live Architecture & Operational Telemetry
+
+<div align="center">
+  <img src="assets/telemetry_card.svg" alt="System Telemetry & Operational Metrics" width="100%" />
+</div>
+
+---
+
+## 🧭 About Me & Engineering Philosophy
+
+I operate across the entire execution stack with a strong focus on **high-reliability distributed architectures**, **industrial IoT telematics**, and **zero-impact metadata pipelines** on mission-critical enterprise systems.
 
 - ⚡ **Industrial IoT & Firmware:** Engineering resilient firmware on ESP32 (C/C++) with FreeRTOS, Modbus RTU (RS-485)/TCP for industrial cooling/telemetry, and automatic 4G/GSM cellular failover with local flash ring-buffers.
 - 🏛️ **Distributed Backends & Microservices:** Designing high-concurrency payment engines, reactive microservices, and idempotent message-driven pipelines with Java 21 / Spring Boot 3, C# .NET, Redis distributed locks, and RabbitMQ.
@@ -101,12 +111,13 @@ I am a full-spectrum systems and backend engineer with deep expertise across the
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics & Activity
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ihtiyar07&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Ahmet's GitHub Stats" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ihtiyar07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="165" />
+<img src="https://streak-stats.demolab.com?user=ihtiyar07&theme=tokyonight&hide_border=true&background=0D1117&ring=00C853&fire=00D4FF&currStreakNum=00C853" alt="Ahmet's GitHub Streak" height="175" />
+&nbsp;&nbsp;
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ihtiyar07&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" height="175" />
 
 </div>
 
@@ -117,7 +128,7 @@ I am a full-spectrum systems and backend engineer with deep expertise across the
 Whether you want to discuss distributed backend architecture, industrial IoT firmware, high-scale metadata lineage, or Proxmox infrastructure:
 
 - ✉️ **Email:** [ahmetihtiyar1453@gmail.com](mailto:ahmetihtiyar1453@gmail.com)
-- 💼 **LinkedIn:** [Ahmet İhtiyar](https://www.linkedin.com) *(Update with your direct LinkedIn URL)*
+- 💼 **LinkedIn:** [Ahmet İhtiyar](https://www.linkedin.com) *(Update with your direct LinkedIn profile)*
 - 🌐 **Portfolio & Architecture Sandbox:** [ihtiyar07](https://github.com/ihtiyar07)
 
 <div align="center">
