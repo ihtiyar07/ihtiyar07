@@ -128,8 +128,8 @@ I operate across the entire execution stack with a strong focus on **high-reliab
 Whether you want to discuss distributed backend architecture, industrial IoT firmware, high-scale metadata lineage, or Proxmox infrastructure:
 
 - ✉️ **Email:** [ahmetihtiyar1453@gmail.com](mailto:ahmetihtiyar1453@gmail.com)
-- 💼 **LinkedIn:** [Ahmet İhtiyar](https://www.linkedin.com) *(Update with your direct LinkedIn profile)*
-- 🌐 **Portfolio & Architecture Sandbox:** [ihtiyar07](https://github.com/ihtiyar07)
+- 💼 **LinkedIn:** [Ahmet İhtiyar](https://linkedin.com/in/ahmet-ihtiyar)
+- 🌐 **Portfolio & Architecture Sandbox:** [ahmetihtiyar.com](https://ahmetihtiyar.com) / [GitHub](https://github.com/ihtiyar07)
 
 <div align="center">
   <sub>Crafted with engineering precision • Designed for reliability & high-throughput systems</sub>
